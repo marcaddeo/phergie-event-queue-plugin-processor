@@ -1,0 +1,17 @@
+{
+    "name": "madd/phergie-event-queue-plugin-processor",
+    "description": "A PluginProcessor for the Phergie IRC Bot to inject the Event Queue into plugins that have the EventQueueAwareInterface",
+    "keywords": ["irc", "phergie", "plugin", "processor", "event", "queue"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/marcaddeo/phergie-event-queue-plugin-processor/issues",
+        "source": "https://github.com/marcaddeo/phergie-event-queue-plugin-processor"
+    },
+    "minimum-stability": "dev",
+    "require" : {
+        "phergie/phergie-irc-bot-react": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Madd\\Phergie\\PluginProcessor\\": "src"}
+    }
+}
